@@ -25,6 +25,12 @@ go build -o app main.go
 ./app
 ```
 
+## external package install
+```
+go mod tidy
+```
+
+
 ## Official Document
 
 go-cs-opensource
@@ -36,4 +42,10 @@ go-staticcheck(linter)
 ```
 error list
 https://staticcheck.dev/docs/checks/
+```
+
+go dot env 
+```
+github
+https://github.com/joho/godotenv/blob/main/godotenv.go
 ```
