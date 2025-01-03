@@ -1,13 +1,17 @@
 package main
 
 import (
-	"fmt"
-	"os"
-
-	"github.com/joho/godotenv"
+	"go-sample/calculator"
+	"go-sample/enumeration"
+	"go-sample/gomap"
+	"go-sample/gostruct"
+	"go-sample/slice"
 )
 
 func main() {
-	godotenv.Load()
-	fmt.Println(os.Getenv("GO_ENV"))
+	calculator.RunCalculator()
+	slice.RunSlice()
+	gomap.RunMap()
+	enumeration.RunEnum()
+	gostruct.RunStruct()
 }
