@@ -16,11 +16,19 @@ go run main.go
 ```
 
 ## build & run
+
+◆Local起動用
 ```
-go build -o app main.go
+go build -o ./release/bin/app main.go
 ```
 -o : BinaryFileName
 
+◆Linux起動用
+```
+GOOS=linux GOARCH=amd64 go build -o ./release/bin/app main.go
+```
+
+◆Run
 ```
 ./app
 ```
