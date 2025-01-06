@@ -33,6 +33,11 @@ GOOS=linux GOARCH=amd64 go build -o ./release/bin/app main.go
 ./app
 ```
 
+◆test api
+```
+http://{ip-address}:8080/greet/Shimizu
+```
+
 ## external package install
 ```
 go mod tidy
